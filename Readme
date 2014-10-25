@@ -1,0 +1,44 @@
+-----
+USAGE
+-----
+
+Shell into directory COMP308_ASS3_BUILD_DIR
+
+Run the following commands:
+
+  cmake -G"Eclipse CDT4 - Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER_ARG1=-std=c++11 ../COMP308_ASS3_SRC/
+
+  make -f Makefile
+  
+  ./GLMain
+  
+--------
+CONTROLS
+--------
+
+Mouse:
+
+  LEFT_MOUSE_BUTTON_DRAG = Arc ball rotation control
+  RIGHT_MOUSE_BUTTON_DRAG = Adjust spotlight position
+  
+Keyboard:
+
+  'x' = increase spotlight cutoff angle
+  'z' = decrease spotlight cutoff angle
+  't' = rotate table 360 degrees
+  
+---------------------
+WHAT I HAVE COMPLETED
+---------------------
+
+Core:
+All of the core requirements have been completed
+
+Extension:
+All but the environment mapping
+
+Challenge:
+Phong shading has been implemented via vertex and fragment shaders
+
+
+  
