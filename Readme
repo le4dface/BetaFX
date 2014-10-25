@@ -11,34 +11,32 @@ Run the following commands:
   make -f Makefile
   
   ./GLMain
-  
 --------
 CONTROLS
 --------
 
 Mouse:
 
-  LEFT_MOUSE_BUTTON_DRAG = Arc ball rotation control
-  RIGHT_MOUSE_BUTTON_DRAG = Adjust spotlight position
+  MOUSE MOTION = first person control 
+ (move mouse very slowly at first, there is a small bug that may make your camera rotate away from the scene)
   
 Keyboard:
 
   'x' = increase spotlight cutoff angle
   'z' = decrease spotlight cutoff angle
-  't' = rotate table 360 degrees
+  't' = rotate painted scene 360 degrees
+  'q' = cycle through / select painted objects for manipulation
+  Keypad numbers 1-9 = change brush-stroke texture
+  Keypad '+' = increase billboard size of selected object
+  Keypad '-' = decrease billboard size of object
+  Keypad '*' = increase billboards offset from center of polygon face
+  Keypad '/' = decrease billboards offset from center of polygon face
   
----------------------
-WHAT I HAVE COMPLETED
----------------------
-
-Core:
-All of the core requirements have been completed
-
-Extension:
-All but the environment mapping
-
-Challenge:
-Phong shading has been implemented via vertex and fragment shaders
+  'up-arrow' = move forward
+  'down-arrow' = move backward
+  'left-arrow' = move left
+  'right-arrow' = move right
+  
 
 
   
